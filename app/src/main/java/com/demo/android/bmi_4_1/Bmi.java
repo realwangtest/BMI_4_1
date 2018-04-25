@@ -24,7 +24,7 @@ public class Bmi extends AppCompatActivity implements View.OnClickListener {
 
         setContentView(R.layout.activity_bmi);
         findViews();
-        setListeners();
+        setMyListeners();
     }
 
     private void findViews(){
@@ -35,7 +35,7 @@ public class Bmi extends AppCompatActivity implements View.OnClickListener {
         suggest = findViewById(R.id.suggest);
     }
 
-    private void setListeners(){
+    private void setMyListeners(){
         submit.setOnClickListener(this);
     }
 
